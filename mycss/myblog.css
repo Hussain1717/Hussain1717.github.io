@@ -4,8 +4,6 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 
-
-
 #mypage {
 border: 1px solid #000;
 width: 100%;
@@ -125,11 +123,6 @@ background-color: red;
     height: 135px;
 }
 
-
-
-.jmac{
-    border: 1px solid #000;
-}
 
 .our_courses p {
     margin-bottom: 35px;
