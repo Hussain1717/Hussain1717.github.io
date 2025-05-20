@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members Registration Form></title>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+
+</head>
+<body>
+    <div class="register">
+        <h1>Online registration form</h1>
+        <div id="error"></div> <!--This div must be a class-->
+
+<form action="/" method="post" id="form">
+    <div class="reg_input_field"> 
+        <label for="firstname">First name</label>
+        <input type="text" name="firstname" id="firstname" autocomplete="off">
+    </div>
+
+    <div class="reg_input_field">
+        <label for="middlename">Middle name</label>
+        <input type="text" name="middlename" id="middlename" autocomplete="off">
+    </div>
+
+    <div class="reg_input_field">
+        <label for="lastname">Last name</label>
+        <input type="text" name="lastname" id="lastname" autocomplete="off">
+    </div>
+
+    <div class="reg_input_field">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone" autocomplete="off">
+        <label for="wrongtel"></label>
+    </div>
+
+    <div class="reg_input_field">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" autocomplete="off">
+    </div>
+
+    <div class="reg_input_field">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+    </div>
+
+    <div class="reg_input_field">
+        <label for="confpassword">Confirm password</label>
+        <input type="password" name="confpassword" id="confpassword">
+    </div>
+
+    <div class="reg_input_field">
+        <label>Gender</label>
+        <label for="checkbox">
+<input type="checkbox" name="male" id="male">Male</label>
+ <label for="checkbox">
+    <input type="checkbox" name="female" id="female">Female</label>
+    </div>
+
+    <div class="reg_input_field">
+        <button type="submit" name="submit" id="submit">Submit</button>
+    </div>
+</form>
+    </div>
+
+    
+
+    <script src="js/validate.js"></script>
+</body>
+</html>

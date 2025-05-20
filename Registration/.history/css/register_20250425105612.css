@@ -1,0 +1,25 @@
+/* This file is for the register page */
+
+body {
+    background-color: #ffffff;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+
+.register h1 {
+    font-size:  20px;
+    color: #9bc0c9;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1vh;
+}
+
+.register {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 550px;
+    border: 1px solid #000000;
+    margin: auto;
+    margin-top: 45px;
+    background-color: #3668af;
+}

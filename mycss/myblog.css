@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
 background-color: #fff;
 font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +7,7 @@ font-family: Arial, Helvetica, sans-serif;
 #mypage {
 border: 1px solid #000;
 width: 100%;
-height: 2600px;
+height: auto;
 }
 
 
@@ -47,10 +46,10 @@ color:#5DE2E7;
 background-color: #c8def2;
 }
 
-#contentarea {
+/* #contentarea {
     background-color: aqua;
     height: auto;
-}
+} */
 
 .hm {
 background-color: red;
@@ -78,14 +77,14 @@ background-color: red;
 
 .application_form {
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color:darkgrey;
 }
 
 .our_courses {
     width: 100%;
-    height: 1072px;
-    background-color:coral;
+    height: auto;
+    /* background-color:coral; */
     
 }
 
@@ -118,7 +117,7 @@ background-color: red;
     margin-left: 35px;
 }
 
-.our_courses dd dl {
+/* .our_courses dd dl {
     display: inline;
     margin-right: 150px;
     height: 135px;
@@ -134,158 +133,34 @@ background-color: red;
 
 .our_courses h1 {
     font-size: 200%;
-}
-    /*
-#topnav ul li {
-text-decoration: none;
-display: inline;
-
-}
-
-https://developers.google.com/fonts/docs/getting_started
-
-#mypage {
-
-
-border: 1px solid #000;
-}
-
-=======
-body {
-background-color: #fff;
-font-family: Arial, Helvetica, sans-serif;
-}
-
-
-#mypage {
-border: 1px solid #000;
-width: 100%;
-height: 2600px;
-}
-
-
-#banner {
-height: 90px;
-border: 1px solid #000;
-font-size: 400%;
-}
-
-#banner img{
-border-radius: 50%;
-}
-
-
-#topnav {
-height: 45px;
-border: 1px solid #000;
-}
-
-
-#topnav ul li {
-text-decoration: none;
-display:inline;
-}
-
-#topnav a:link {
-text-decoration: none;
-}
-
-#topnav a:visited {
-color:#5DE2E7;
-
-}
-
-#topnav a:hover {
-background-color: #c8def2;
-}
-
-#contentarea {
-    background-color: aqua;
-    height: auto;
-}
-
-.hm {
-background-color: red;
-}
-
-.company_profile {
-    width: 100%;
-    height: 250px;
-    background-color:#c8def2;
-    border-radius:8px;
-    margin: 1px;
-}
-
-.current_trainees {
-    width: 100%;
-    background-color:yellow;
-    height: 400px;
-}
-
-.job_spec {
-    width: 100%;
-    height: 300px;
-    background-color:brown;
-}
-
-.application_form {
-    width: 100%;
-    height: 400px;
-    background-color:darkgrey;
-}
+} */
 
 .our_courses {
-    width: 100%;
-    height: 1072px;
-    background-color:coral;
-    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+    margin-left: 130px;
+    margin-top: 90px;
+    grid-column-gap: 10px;
 }
 
-
-.company_profile h1{
-    color:brown;
-}
-
-.company_profile p {
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
     padding: 10px;
-    border-radius: 10px;
-    background-color:#caadce;
-}
-.company_profile p{
-    color: #fff;
-    padding-left: none !important;
+    width: 50%;
+    border-end-end-radius: 10px;
 }
 
-.current_trainees ul li{
-    display: inline;
-    margin-right: 85px;
-}
-.current_trainees img{
-    border-radius: 50%;
+.course{
+    border: 2px dotted #caadce
 }
 
-.current_trainees h1{
-    margin-bottom: 35px;
-    padding-top:35px;
-    margin-left: 35px;
-}
-
-.our_courses dd dl {
-    display: inline;
-    margin-right: 150px;
-    height: 135px;
-}
-
-
-.our_courses p {
-    margin-bottom: 35px;
-    padding-top: 35px;
-    margin-left: 35px;
-    font-size: 100%;
-}
-
-.our_courses h1 {
-    font-size: 200%;
+.course h2{
+    color: blue;
 }
     /*
 #topnav ul li {
@@ -302,5 +177,5 @@ https://developers.google.com/fonts/docs/getting_started
 border: 1px solid #000;
 }
 
->>>>>>> 29e576811a77a101ce14a1b84ba61c5c84467f5f
 */
+
