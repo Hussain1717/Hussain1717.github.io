@@ -81,51 +81,7 @@
     <li>Willing to learn</li>
   </ul>
 </div>
-<div class="application_form"><h1> On-line application form</h1></div>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Registration Form</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .form-container {
-      background-color: magenta;
-      color: white;
-      padding: 40px;
-      width: 300px;
-      margin: 50px auto;
-      border-radius: 8px;
-    }
-
-    input, button {
-      display: block;
-      width: 100%;
-      margin-bottom: 10px;
-      padding: 8px;
-      border: none;
-      border-radius: 4px;
-    }
-
-    button {
-      background-color: black;
-      color: white;
-      cursor: pointer;
-    }
-
-    .gender label {
-      display: inline-block;
-      margin-right: 10px;
-    }
-  </style>
-</head>
-<body>
+<div class="application_form"><h1> On-line application form</h1>
 
   <div class="form-container">
     <h2 class="form-title">ONLINE APPLICATION FORM</h2>
@@ -138,19 +94,21 @@
       <input type="password" placeholder="Password" required>
       <input type="password" placeholder="Confirm password" required>
       <div class="gender">
-        <label><input type="checkbox" name="gender" value="Male"> Male</label>
-        <label><input type="checkbox" name="gender" value="Female"> Female</label>
+        <label><input type="radio" name="gender" value="Male"> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
       </div>
+      <label>Attach your CV</label>
+      <input type="file" accept=".pdf, .doc ,.docx">
+      
       <button type="submit">Submit</button>
+   
     </form>
-  </div>
+  </div> 
+</div>
 
-</body>
-</html>
-
-    
-
+<span class="link_to_dev_course"><h1> Links to web development course</h1></span>
 <div class="our_courses">
+ 
     <!-- <h1> Links to web development course</h1> -->
     <!-- <dd> 
         <dl class="cs"><a href="https://www.w3schools.com/Css/" >CSS Course</a> </dl>        
