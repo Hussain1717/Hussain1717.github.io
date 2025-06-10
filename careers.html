@@ -3,15 +3,18 @@
 
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=width-device, initial-scale=1 strink-to-fit=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta description="Website development, Web design" />
 <title>Nabil's Blog </title>
 <link rel="stylesheet" type="text/css" href="mycss/myblog.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <script type="text/javascript" src="myjsfiles/mytasks.js"> </script>
 
 <link rel="stylesheet" type="text/css" href="my_bootstrap/css/bootstrap.min.css" />
 
 <link rel="stylesheet" type="text/css" href="glyphicons-only-bootstrap/css/bootstrap.min.css" />
+
+
 
 <script type="text/javascript" src="my_bootstrap/js/bootstrap.min.js" > </script>
 
@@ -35,9 +38,17 @@
 <li> <a href="careers.html" class= "glyphicon glyphicon-user"> Careers</a> </li>
 
 </ul>
+<a href="javascript:void(0);" class="icon" onclick="toggleBurgerMenu()">
+  <i style="color:black;" class="fas fa-bars"></i>
+</a>
+
 </div>
-
-
+<script>
+function toggleBurgerMenu() {
+  const nav = document.getElementById("topnav");
+  nav.classList.toggle("responsive");
+}
+</script>
 
 <div class="company_profile">
     <h1> Company Profile</h1>
@@ -189,7 +200,6 @@
     <p>Python is a programming language and is used in web development and artifical intelligence.</p>
     <button> Learn more</button>
 </div>
-
 
 </div>
 
