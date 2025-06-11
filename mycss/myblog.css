@@ -65,13 +65,17 @@ body {
 }
 
 /* Hide hamburger icon by default on desktop */
-#topnav .icon {
+#topnav a.icon {
   display: none;
   font-size: 28px;
   cursor: pointer;
   position: absolute;
   left: 10px;
-  top: 8px;
+  top: -13px;
+}
+
+#topnav.responsive.icon {
+  visibility: visible;
 }
 
 .hm {
@@ -266,7 +270,7 @@ input[type="password"] {
   }
 
   /* Show hamburger icon */
-  #topnav .icon {
+  #topnav a.icon {
     display: block;
   }
 
